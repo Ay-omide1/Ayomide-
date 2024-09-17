@@ -30,5 +30,6 @@ button{
     background-color: black;
     color: white;
     display: block;
+    padding: 2px 2px 2px;
 
 }
