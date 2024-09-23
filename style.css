@@ -1,0 +1,227 @@
+ *{
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 100px;
+    background-color: #1B1B1B;
+}
+
+nav h2{
+    color: white;
+    transition: 0.3s ease;
+}
+nav h2:hover{
+    color: orangered;
+    text-shadow:0 0 25px ;
+    text-shadow: 0 0 50px;
+    transform: scale(1.1);
+}
+span{
+    color: orangered;
+}
+
+
+nav ul{
+    display: flex;
+    
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    width: auto;
+    height: 1000px;
+}
+
+nav ul li{
+    margin-right: 15px;
+    
+}
+nav ul li a{
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+    
+
+}
+nav ul li a:hover{
+    color: orangered;
+    border-bottom:3px solid orangered;
+}
+.contact{
+    color: black;
+    background-color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    transition: 0.3ms ease;
+}
+.contact:hover{
+    background-color: orangered;
+    box-shadow:0 0 25px orangered;
+    color: white;
+}
+
+header{
+    padding: 0 100px;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: space-between; 
+}
+.content{
+  max-width: 200px;
+}
+
+.content h2{
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.content p{
+    font-size: 18px;
+    margin-bottom:25px 0 30px;
+    margin:1cm 0 1cm;
+}
+
+.download-btn{
+    border: 2px solid transparent;
+    padding: 8px ;
+    border-radius: 8px;
+    background-color:orangered;
+    color: white;
+    transition: 0.3s ease;
+    cursor: pointer;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.download-btn:hover{
+    background-color: white;
+    color: orangered;
+    border: 2px solid black;
+}
+
+.image{
+    max-width:500px ;
+    
+}
+.image>img{
+   width: 300px;
+   height: 300px; 
+   object-fit: cover;
+   border-radius: 50%;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orangered;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 50px;
+}
+.about{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 12% 8%;
+    gap:10cm;
+    background-color:black ;
+}
+.about-img img{
+    position: relative;
+    width: 550px;
+    box-shadow:0 0 25px orangered;
+    border-radius: 50%;
+
+}
+.about-content h2{
+    text-align: left;
+    color: white;
+    font-size: 42px;
+}
+.about-content h3{
+    font-size:42px;
+    color: white;
+}
+.about-content p{
+    color: white;
+    font-size: 20px;
+    margin: 2cm 0 3cm;
+}
+.contact-form h2{
+    text-align: center;
+    margin-top:3cm;
+    margin-bottom: 1cm;
+    font-size: 36px;
+}
+.contact-form form{
+    max-width:30cm;
+    margin: 1rm auto;
+    text-align: center;
+    margin-bottom:3cm;
+    
+}
+.contact-form form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact-form form .input-box input,
+.contact-form form textarea{
+    width: 100%;
+    padding: 1.5cm;
+    font-size: 18px;
+    color: black;
+    background-color: rgb(241, 241, 241);
+    margin: 1rem 0;
+    resize: none;
+    border-radius: 8rem;
+}
+    .footer{
+        position: relative;
+        bottom:0;
+        width: 100%;
+        padding: 40px 0;
+        background-color: black;
+        height: 400px;
+    }
+    .footer .social{
+        text-align: center;
+        padding-bottom: 25px;
+        color: white;
+    }
+    .footer.soacial a{
+        font-size: 24px;
+        color: white;
+        border: 2px solid orangered;
+        width: 40px;
+        height: 40px;
+        line-height: 30px;
+        display:  inline-block;
+        text-align: center;
+        border-radius: 50%;
+        margin: 0 8px ;
+        box-shadow: inset 0 0 10px orangered, 0 0 10px orangered;
+}
+.footer .social a:hover{
+
+}
+
+.footer .ul{
+    margin-top: 0;
+    padding: 0;
+    font-size:10px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
