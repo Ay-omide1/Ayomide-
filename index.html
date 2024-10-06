@@ -11,26 +11,29 @@
     <nav>
         <h2><span>Bra</span>nd</h2>
     <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="">About</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="">Skills</a></li>
-        <li><a href="">Project</a></li>
+        <li><a href="#project">Project</a></li>
         <li><a href="" class="contact">Contact</a></li>
     </ul>
     </nav>
-    <header>
-        <div class="content">
-            <h2>Hi <br>I am <span>Ayomide</span> <br>a Frontened <br>Developer</h2>
-            <p>I can create a user friendly and user enagaging website for your organization</p>
-            <a href="" class="download-btn">
-                <button>Download My CV</button>
-            </a>
+   <section id="home">
+    <div class="home-content">
+        <h2>Hi <br>I am <span>Ayomide</span> <br>a Frontened <br>Developer</h2>
+        <p>I can create a user friendly and user enagaging website for your organization</p>
+       
+        <div class="download-btn">
+            <button>Download my Cv</button>
         </div>
-        <div class="image">
-    <img src="ayo.jpg" alt="">
-        </div>    
-    </header>
-    <section class="about">
+
+    </div>
+    <div class="image">
+        <img src="ayo.jpg" alt="">
+            </div>    
+        
+   </section>
+    <section id="about">
         <div class="about-img">
             <img src="ayo.jpg" alt="">
         </div>
@@ -43,6 +46,37 @@
             <a href="" class="download-btn">Download My CV</a>
         </div>
     </section>
+    
+      <section id="project">
+        <h1>Project Section</h1>
+
+        <div class="projects-wrapper">
+            <div class="project-cards">
+            <img src="logo.png" alt="">
+            
+            <h3>Project Title</h3>
+            <p>Project Description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias corporis minima quasi laudantium perspiciatis, itaque id praesentium pariatur! Deleniti nihil accusantium modi deserunt nisi ab atque eaque, optio maiores unde. </p> 
+            <div class="btn-group">
+            <a href="" class="live-demo-btn">Live Demo</a>
+            <a href="https://github.com/Ilori Ayomid" class="github-link-btn"></a>
+            <a href="https://github.com/Ay-omide1/Ayomide-" class="github-link-btn">Github Link</a>
+            </div>
+        </div>
+
+            <div class="project-cards">
+                <img src="w3.png" alt="" class="">
+                <h3>Project Title</h3>
+                <p>Project Description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias corporis minima quasi laudantium perspiciatis, itaque id praesentium pariatur! Deleniti nihil accusantium modi deserunt nisi ab atque eaque, optio maiores unde. </p> 
+            
+            </div>
+            <div class="project-cards">
+                <img src="w3.png" alt="">
+                <h3>Project Title</h3>
+                <p>Project Description. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias corporis minima quasi laudantium perspiciatis, itaque id praesentium pariatur! Deleniti nihil accusantium modi deserunt nisi ab atque eaque, optio maiores unde. </p> 
+            
+            </div>
+        </div>
+      </section> 
 
     <section class="contact-form">
         <h2 class="contact-me">Contact <span>Me</span></h2>
@@ -99,5 +133,9 @@
 <p class="copyright">&copy;2024 Ayomide | All Rights Reserved</p>
 
 </footer>
+
+<a href="#home">
+    <button class="back-to-top">Go up</button>
+</a>
 </body>
 </html>
